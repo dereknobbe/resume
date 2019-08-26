@@ -10,7 +10,7 @@ class About extends React.Component {
                     <img className="picture" src={require('./profilepic.jpg')}/>
                 </div>  
             </div>
-        )
+        );
     }
 }
 export default About

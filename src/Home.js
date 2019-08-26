@@ -21,10 +21,10 @@ class Home extends React.Component {
       width='thin'
     >
       <Menu.Item as='a'>
-        About
+        Introduction
       </Menu.Item>
       <Menu.Item as='a'>
-        Work Experience
+      Work Experience
       </Menu.Item>
       <Menu.Item as='a'>
         Projects
@@ -42,7 +42,7 @@ class Home extends React.Component {
   </Sidebar.Pushable>
         </div>
 
-        )
+        );
     }
 }
 
