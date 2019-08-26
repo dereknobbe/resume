@@ -3,8 +3,9 @@ import './App.css';
 import './Home.css';
 import Heading from './Heading';
 import About from './About';
-import { Reveal } from 'semantic-ui-react';
-import { Header, Icon, Image, Menu, Sidebar } from 'semantic-ui-react';
+import Info from './Info';
+import { Divider } from 'semantic-ui-react';
+import { Header, Icon, Image, Menu, Sidebar, Sticky} from 'semantic-ui-react';
 class Home extends React.Component {
     render() {
         return( 
@@ -20,13 +21,16 @@ class Home extends React.Component {
       width='thin'
     >
       <Menu.Item as='a'>
-        Home
+        About
       </Menu.Item>
       <Menu.Item as='a'>
-        Games
+        Work Experience
       </Menu.Item>
       <Menu.Item as='a'>
-        Channels
+        Projects
+      </Menu.Item>
+      <Menu.Item as='a'>
+        Who I Am
       </Menu.Item>
     </Sidebar>
 

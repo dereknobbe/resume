@@ -1,6 +1,7 @@
 .header {
-    height: 150px;
+    height: 175px;
     padding: 50px;
+    margin-bottom: 50px;
     text-align: center;
     background: #1abc9c;
     color:  white;
@@ -22,4 +23,8 @@
 }
 
 .sidebar {
+}
+
+.info {
+    font-size: 1.5em;
 }
