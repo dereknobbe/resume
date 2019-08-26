@@ -9,7 +9,17 @@
 
 .picture {
     display: block;
-    margin-left: auto;
+    margin-left: 15%;
     margin-right: auto;
     border-radius: 1%;
+}
+
+.reveal {
+    display: block;
+    margin-left: 50;
+    margin-right: 20;
+    
+}
+
+.sidebar {
 }
