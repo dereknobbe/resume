@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css'; 
-import { Button, Container, Image } from 'semantic-ui-react';
+import { Container, Image } from 'semantic-ui-react';
 class About extends React.Component {
     render() {
         return( 

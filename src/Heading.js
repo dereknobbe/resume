@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import './Home.css';
 import { Button, Icon, Popup } from 'semantic-ui-react';
@@ -38,10 +37,10 @@ class Heading extends React.Component {
         <div className="header">
             <h1>Derek Nobbe</h1>
             <p>Developer | Innovator | Creator</p>
-            <Button href="https://www.linkedin.com/in/dereknobbe/" color='linkedin'>
+            <Button href="https://www.linkedin.com/in/dereknobbe/" color='blue'>
                 <Icon name='linkedin' /> LinkedIn
             </Button>   
-            <Button href="https://github.com/dereknobbe" color='github'>
+            <Button href="https://github.com/dereknobbe" color='grey'>
                 <Icon name='github' /> Github
             </Button>
             <Popup

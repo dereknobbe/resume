@@ -11,7 +11,7 @@ class Projects extends React.Component {
                         <Card.Content>
                             <Card.Description>
                                 <p style={{textAlign: 'center'}}>Job Tracker</p>
-                                <Modal trigger={<Button style={{display: 'block', margin: '0 auto'}}color='primary'>Officium</Button>}>
+                                <Modal trigger={<Button style={{display: 'block', margin: '0 auto'}}color='blue'>Officium</Button>}>
                                     <Container>
                                     <Image src={require('./officium123.png')}/>
                                         <div className='modalheaders'>
@@ -38,7 +38,7 @@ class Projects extends React.Component {
                         <Card.Content>
                             <Card.Description>
                             <p style={{textAlign: 'center'}}>Social Media Platform</p>
-                            <Modal trigger={<Button style={{display: 'block', margin: '0 auto'}}color='primary'>Travel Talk</Button>}>
+                            <Modal trigger={<Button style={{display: 'block', margin: '0 auto'}} color='blue'>Travel Talk</Button>}>
                                 <Container>
                                         <div className='modalheaders'>
                                             <h1>Travel Talk</h1>
@@ -59,7 +59,7 @@ class Projects extends React.Component {
                         <Card.Content>
                             <Card.Description>
                             <p style={{textAlign: 'center'}}>Replacement for Bash</p>
-                            <Modal trigger={<Button style={{display: 'block', margin: '0 auto'}}color='primary'>Custom Linux Shell</Button>}>
+                            <Modal trigger={<Button style={{display: 'block', margin: '0 auto'}}color='blue'>Custom Linux Shell</Button>}>
                             <Container>
                                 <Image src={require('./muthur.png')}/>
                                         <div className='modalheaders'>
@@ -81,7 +81,7 @@ class Projects extends React.Component {
                         <Card.Content>
                             <Card.Description>
                             <p style={{textAlign: 'center'}}>C/C++ Server</p>
-                            <Modal trigger={<Button style={{display: 'block', margin: '0 auto'}}color='primary'>Web Server</Button>}>
+                            <Modal trigger={<Button style={{display: 'block', margin: '0 auto'}}color='blue'>Web Server</Button>}>
                                 <Container>
                                     <Image src={require('./webserverterminal.png')}/>
                                         <div className='modalheaders'>
@@ -102,7 +102,7 @@ class Projects extends React.Component {
                         <Card.Content>
                             <Card.Description>
                                 <p style={{textAlign: 'center'}}>Unity 3D project</p>
-                                <Modal trigger={<Button style={{display: 'block', margin: '0 auto'}} color='primary'>VR Project</Button>}>
+                                <Modal trigger={<Button style={{display: 'block', margin: '0 auto'}} color='blue'>VR Project</Button>}>
                                 <Container>
                                         <div className='modalheaders'>
                                         <Image className='middlepic' src={require('./vrproject.png')}/>
@@ -124,7 +124,7 @@ class Projects extends React.Component {
                         <Card.Content>
                             <Card.Description>
                                 <p style={{textAlign: 'center'}}>Phi Beta Kappa</p>
-                                <Modal trigger={<Button style={{display: 'block', margin: '0 auto'}} color='primary'>Phi Beta Kappa Website</Button>}>
+                                <Modal trigger={<Button style={{display: 'block', margin: '0 auto'}} color='blue'>Phi Beta Kappa Website</Button>}>
                                 <Container>
                                         <div className='modalheaders'>
                                         <Image className='middlepic' src={require('./phibetakappa.png')}/>
