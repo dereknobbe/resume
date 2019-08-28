@@ -47,7 +47,7 @@ class Info extends React.Component {
                     to implement the software updates they required.  
                 </p>
                 <Image.Group size='large'>
-                    <Image src={require('./ezgif.com-gif-maker.jpg')} size='small' />
+                    <Image src={require('./travelercert.JPG')} size='small' />
                     <Image src={require('./Arkansas_State_Capitol.jpg')} size='small' />
                 </Image.Group> 
                 <p style={{fontSize: 14}}>I recieved the Arkansas Traveler certificate. An award that gives "special recognition 
