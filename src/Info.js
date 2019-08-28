@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import Projects from './Projects.js'
 import { Container } from 'semantic-ui-react';
 import { Divider } from 'semantic-ui-react';
 import { Image } from 'semantic-ui-react';
@@ -7,13 +8,13 @@ class Info extends React.Component {
     render() {
         return( 
             <Container className="info">
-                <ul>About Me</ul>
+                <ul id="intro">About Me</ul>
                 <Divider />
                 <p>I am a senior studying Computer Science at Purdue University in West Lafayette, Indiana. I love solving problems and learning about the technologies that can help me
                     do that. 
                 </p>
                 
-                <ul>Education</ul>
+                <ul style={{marginTop: '100px'}}>Education</ul>
                 <Divider />
                 <p>Purdue's rigourous education has definitely been a challenge, but I am thankful for the amount of knowledge my wonderful professors have shared with me. Throughout my time here
                     I have taken courses in the following areas:
@@ -36,7 +37,7 @@ class Info extends React.Component {
                 </Image.Group> 
                <p style={{textAlign: 'center'}}>I'm going to miss this place</p>
                 <p style={{fontSize: 12}}>Photos courtesy of Purdue Marketing</p>
-                <ul style={{marginTop: 100}}>Work Experience</ul>
+                <ul id="work" style={{marginTop: 100}}>Work Experience</ul>
                  <Divider />
                 <h3>I have been lucky enough to work at two companies during my time as a student.</h3>
                 <p>In the Summer of 2019 I worked for Fast Enterprises in Little Rock, Arkansas. 
@@ -63,8 +64,9 @@ class Info extends React.Component {
                     software development can teach you. 
                 </p>
 
-                <ul style={{marginTop: 100}}>Projects</ul>
-                <Divider />                
+                <ul id="projects" style={{marginTop: 100}}>Projects</ul>
+                <Divider />
+                <Projects/>                
             </Container>
         );
     }

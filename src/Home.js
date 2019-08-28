@@ -10,7 +10,8 @@ class Home extends React.Component {
     render() {
         return( 
         <div>
-<Sidebar.Pushable>
+<Sidebar.Pushable style={{transform: 'none'}}>
+<Sticky >
     <Sidebar
       as={Menu}
       animation='overlay'
@@ -20,25 +21,27 @@ class Home extends React.Component {
       visible
       width='thin'
     >
-      <Menu.Item as='a'>
+      <Menu.Item as='a' onClick={() => document.getElementById("intro").scrollIntoView(true)}>
         Introduction
       </Menu.Item>
-      <Menu.Item as='a'>
+      <Menu.Item as='a' onClick={() => document.getElementById("work").scrollIntoView(true)}>
       Work Experience
       </Menu.Item>
-      <Menu.Item as='a'>
+      <Menu.Item as='a' onClick={() => document.getElementById("projects").scrollIntoView(true)}>
         Projects
       </Menu.Item>
-      <Menu.Item as='a'>
+      <Menu.Item as='a' onClick={() => document.getElementById("whoiam").scrollIntoView(true)}>
         Who I Am
       </Menu.Item>
     </Sidebar>
+    </Sticky>
 
     <Sidebar.Pusher>
         <Heading/>
         <Info/>
         <About />
     </Sidebar.Pusher>
+    
   </Sidebar.Pushable>
         </div>
 

@@ -9,7 +9,7 @@ class Heading extends React.Component {
         <div className="header">
             <h1>Derek Nobbe</h1>
             <p>Developer | Innovator | Creator</p>
-            <Button color='linkedin'>
+            <Button href="www.google.com" color='linkedin'>
                 <Icon name='linkedin' /> LinkedIn
             </Button>   
             <Button color='github'>
